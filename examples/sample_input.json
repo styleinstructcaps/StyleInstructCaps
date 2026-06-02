@@ -1,0 +1,196 @@
+[
+  {
+    "wav_path": "/path/to/project/data/eval_set/ears/p026/emo_relief_freeform.wav",
+    "status": "success",
+    "generated_captions": {
+      "speaker_idiosyncratic_style": {
+        "used_instruction": "Describe the speaker's inherent vocal identity by combining their pitch, accent, gender, and timbre-related characteristics.",
+        "generated_caption": "A female American English speaker in her 30s with a mature voice, speaking clearly and neutrally while expressing relief after avoiding a traffic ticket."
+      },
+      "situational_contextual_style": {
+        "used_instruction": "Set the scene by combining the speaking rate, noise level, and contextual intrinsic tags to describe a person speaking with purpose in a specific setting.",
+        "generated_caption": "A female speaker with a neutral tone and moderate pace expresses relief after narrowly avoiding a traffic ticket, her voice clear against minimal background noise as she recounts the incident."
+      },
+      "expressive_emotional_style": {
+        "used_instruction": "Infer the speaker's emotional tone from the transcription and situational tags, and describe the prosody that creates this feeling, using verbs and adverbs to capture the essence of the emotional expression.",
+        "generated_caption": "The speaker exhibits relief and gratitude through phrases like 'Oh my goodness' and 'Thank goodness,' delivered in a moderate pitch and speed with slight variations that convey genuine emotion without sounding exaggerated."
+      },
+      "linguistic_pragmatic_style": {
+        "used_instruction": "Analyze the transcription to identify linguistic features, and describe the pausing and stress patterns that create a sense of structure and emphasis in the speech.",
+        "generated_caption": "The transcription reveals natural pauses between phrases such as 'Oh my goodness' and 'that was scary,' along with stressed syllables like 'S|K|R|IY0' (scary) and 'T|IH1|K|AH0|T' (ticket), creating a rhythmic flow that emphasizes key emotional moments."
+      },
+      "perceptual_listener_centric_style": {
+        "used_instruction": "Describe the impression the voice leaves on a listener, using impressionistic intrinsic tags to capture the overall effect of the voice and how it feels to hear this person speak.",
+        "generated_caption": "The speaker's voice is described as natural-sounding, indicating that their delivery does not feel overly rehearsed or artificial. The tone is neutral, suggesting that they maintain a balanced emotional state without being too excited or subdued. This combination creates an atmosphere where the message can be clearly understood while still feeling authentic and relatable. Overall, the voice conveys a sense of sincerity and approachability, making the communication effective in engaging listeners."
+      },
+      "holistic_creative_synthesis": {
+        "used_instruction": "Combine all elements of the speech, including intrinsic tags, situational tags, basic tags, gender, accent, pitch, speaking rate, and noise level, to create a rich and narrative-style caption that captures the essence of the speaking style.",
+        "generated_caption": "A female speaker with a neutral emotional tone and unspecified age or accent, narrating in English about narrowly avoiding a traffic ticket while driving on a highway. The delivery is natural and conversational, suitable as background narration without being intrusive."
+      }
+    },
+    "metadata": {
+      "source": "ears",
+      "relative_audio_path": "p026/emo_relief_freeform.wav",
+      "text_description": [
+        " A female speaker with an American accent delivers a passive, punctuated, and calm speech. Her voice is high-pitched, enunciated, and has a nasal quality. The environment in which the recording was made is balanced in clarity, allowing for the measurement of her spoken words at a steady, monotonous pace. Her speech flows crisp and crisp, but lacks expressiveness.",
+        " A female speaker with a high-pitched voice delivers calm and measured words in an environment with balanced clarity. Her passive demeanor is reflected in her speaking style, which moves at a deliberate American pace."
+      ],
+      "transcription": " oh my goodness that was scary I really thought I was going to get a ticket and have to pay hundreds of dollars but thank goodness this the officer just he let me go and oh my goodness I couldn't imagine having to pay that ticket and getting points on my license I am just so happy",
+      "intrinsic_tags": [
+        "crisp",
+        "enunciated",
+        "american",
+        "flowing",
+        "monotonous",
+        "nasal",
+        "punctuated"
+      ],
+      "situational_tags": [
+        "calm",
+        "passive"
+      ],
+      "basic_tags": [
+        "environment balanced in clarity",
+        "female",
+        "high-pitched",
+        "measured speed"
+      ],
+      "all_tags": [
+        "american",
+        "calm",
+        "crisp",
+        "enunciated",
+        "environment balanced in clarity",
+        "female",
+        "flowing",
+        "high-pitched",
+        "measured speed",
+        "monotonous",
+        "nasal",
+        "passive",
+        "punctuated"
+      ],
+      "speakerid": "p026",
+      "name": "p026",
+      "duration": 18.4,
+      "gender": "female",
+      "accent": "american",
+      "pitch": "high-pitched",
+      "speaking_rate": "measured speed",
+      "noise": "environment balanced in clarity",
+      "utterance_pitch_mean": 157.33489990234375,
+      "snr": 49.509437561035156,
+      "phonemes": " o\u028a ma\u026a \u0261\u028adn\u028cs \u00f0\u00e6t w\u0251z sk\u025b\u0279i a\u026a \u0279\u026ali \u03b8\u0254t a\u026a w\u0251z \u0261o\u028a\u026a\u014b tu \u0261\u025bt \u028c t\u026ak\u028ct \u028cnd h\u00e6v tu pe\u026a h\u028cnd\u0279\u028cdz \u028cv d\u0251l\u025c\u02dez b\u028ct \u03b8\u00e6\u014bk \u0261\u028adn\u028cs \u00f0\u026as \u00f0\u028c \u0254f\u028cs\u025c\u02de d\u0292\u028cst hi l\u025bt mi \u0261o\u028a \u028cnd o\u028a ma\u026a \u0261\u028adn\u028cs a\u026a 'ti \u026am\u00e6d\u0292\u028cn h\u00e6v\u026a\u014b tu pe\u026a \u00f0\u00e6t t\u026ak\u028ct \u028cnd \u0261\u025bt\u026a\u014b p\u0254\u026ants \u0251n ma\u026a la\u026as\u028cns a\u026a \u00e6m d\u0292\u028cst so\u028a h\u00e6pi",
+      "audio_path": "/mnt/fs1/USER/paraspeechcaps_root/datasets/ears/p026/emo_relief_freeform.wav",
+      "task": "speech_captioning",
+      "speaker_idiosyncratic_style": "A female American voice with a high-pitched, nasal, and enunciated timbre speaks in a crisp and punctuated manner, delivering words with a distinct, measured flow.",
+      "speaker_idiosyncratic_style_instruction": "Describe the speaker's inherent vocal identity by combining their pitch, accent, gender, and timbre-related characteristics.",
+      "situational_contextual_style": "A calm and composed individual speaks in a measured tone, as if recounting a personal experience in a serene environment, with a steady pace that conveys a sense of relief.",
+      "situational_contextual_style_instruction": "Set the scene by combining the speaking rate, noise level, and contextual intrinsic tags to describe a person speaking with purpose in a specific setting.",
+      "expressive_emotional_style": "The speaker's voice conveys a sense of relief and gratitude, with a pitch contour that rises and falls in a gentle, soothing rhythm, creating a warm and sincere tone.",
+      "expressive_emotional_style_instruction": "Infer the speaker's emotional tone from the transcription and situational tags, and describe the prosody that creates this feeling, using verbs and adverbs to capture the essence of the emotional expression.",
+      "linguistic_pragmatic_style": "The speaker delivers words in a deliberate and enunciated manner, with a steady pace that emphasizes key points, creating a sense of clarity and precision in their speech.",
+      "linguistic_pragmatic_style_instruction": "Analyze the transcription to identify linguistic features, and describe the pausing and stress patterns that create a sense of structure and emphasis in the speech.",
+      "perceptual_listener_centric_style": "The listener is met with a crisp and clear voice that exudes a sense of calmness and composure, with a measured flow that creates a soothing and reassuring atmosphere.",
+      "perceptual_listener_centric_style_instruction": "Describe the impression the voice leaves on a listener, using impressionistic intrinsic tags to capture the overall effect of the voice and how it feels to hear this person speak.",
+      "holistic_creative_synthesis": "A female American voice with a high-pitched, nasal, and enunciated timbre speaks in a crisp and punctuated manner, delivering words with a distinct, measured flow, as if recounting a personal experience in a serene environment, with a steady pace that conveys a sense of relief and gratitude, creating a warm and sincere tone that soothes the listener.",
+      "holistic_creative_synthesis_instruction": "Combine all elements of the speech, including intrinsic tags, situational tags, basic tags, gender, accent, pitch, speaking rate, and noise level, to create a rich and narrative-style caption that captures the essence of the speaking style."
+    }
+  },
+  {
+    "wav_path": "/path/to/project/data/eval_set/expresso/audio_48khz/read/ex04/laughing/base/ex04_laughing_00081.wav",
+    "status": "success",
+    "generated_captions": {
+      "speaker_idiosyncratic_style": {
+        "used_instruction": "Describe the speaker's inherent vocal characteristics, including their accent, pitch, and timbre-related qualities.",
+        "generated_caption": "A female speaker with a neutral emotional tone delivers the weather update in Los Angeles with clear pronunciation and natural intonation suitable for TTS training."
+      },
+      "situational_contextual_style": {
+        "used_instruction": "Set the scene by describing the circumstances of the speech, including the speaking rate, noise level, and the speaker's tone.",
+        "generated_caption": "A female voice delivers a light-hearted weather update in Los Angeles with clear pronunciation and natural intonation, maintaining a neutral emotional tone throughout."
+      },
+      "expressive_emotional_style": {
+        "used_instruction": "Capture the emotional tone of the speaker by describing the prosody, pitch contour, and rhythm that convey their attitude and feelings.",
+        "generated_caption": "The speaker's voice is characterized by a high-pitched, cheerful tone delivered in a relaxed manner, indicating amusement and light-heartedness as they share the humorous weather forecast."
+      },
+      "linguistic_pragmatic_style": {
+        "used_instruction": "Analyze the speech's structural and emphasis patterns, describing the pausing, stress, and intonation that shape the delivery of the words.",
+        "generated_caption": "The speech features natural pauses between phrases, such as after 'Los Angeles' and before 'it isn't going,' allowing the listener to absorb information in manageable chunks. The speaker places slight emphases on key terms like 'cloudy,' 'dusty,' and 'temperatures,' using moderate pitch variations to highlight these important details without overdoing emotional expression. This balanced approach ensures clarity and comprehension while maintaining engagement through subtle vocal dynamics."
+      },
+      "perceptual_listener_centric_style": {
+        "used_instruction": "Detail the listener's perception of the voice, describing the overall effect it has on them and the qualities that make it memorable.",
+        "generated_caption": "The voice is described as belonging to a middle-aged woman with a mature tone, characterized by moderate pitch variation and expressive intonation. This combination makes her delivery engaging and relatable, contributing significantly to the effectiveness of the weather report. The slightly distant-sounding reverberation adds a layer of professionalism without detracting from the clarity of the message. Overall, the voice enhances the listener's experience by making the forecast more accessible and trustworthy."
+      },
+      "holistic_creative_synthesis": {
+        "used_instruction": "Combine all the elements of the speaker's style to create a rich, narrative-style caption that captures the essence of their voice and speaking manner, drawing the listener into the scene.",
+        "generated_caption": "A female speaker in her late twenties to early forties delivers the weather update in Los Angeles with clear pronunciation and natural intonation, sounding friendly and upbeat as she shares the sunny forecast."
+      }
+    },
+    "metadata": {
+      "source": "expresso",
+      "relative_audio_path": "audio_48khz/read/ex04/laughing/base/ex04_laughing_00081.wav",
+      "text_description": [
+        " A female American speaker's booming, animated, and enunciated voice is heard, punctuated by frequent laughter. Her speech is delivered at a measured speed, yet is high-pitched and loud. The recording takes place in a slightly noisy environment, adding a crisp texture to her shrill and expressive voice.",
+        " A female American speaker's laughter infuses an animated tone into her speech, delivered at a measured speed in a slightly noisy environment. Her voice is characterized by a high-pitched tone."
+      ],
+      "transcription": "This evening in Los Angeles it isn't gonna be cloudy, it'll be dusty, with temperatures between zero and four.",
+      "intrinsic_tags": [
+        "american",
+        "booming",
+        "crisp",
+        "enunciated",
+        "loud",
+        "shrill"
+      ],
+      "situational_tags": [
+        "animated",
+        "laughing"
+      ],
+      "basic_tags": [
+        "female",
+        "high-pitched",
+        "measured speed",
+        "slightly noisy environment"
+      ],
+      "all_tags": [
+        "american",
+        "animated",
+        "booming",
+        "crisp",
+        "enunciated",
+        "female",
+        "high-pitched",
+        "laughing",
+        "loud",
+        "measured speed",
+        "shrill",
+        "slightly noisy environment"
+      ],
+      "speakerid": "ex04",
+      "name": "ex04",
+      "duration": 6.956354166666666,
+      "gender": "female",
+      "accent": "american",
+      "pitch": "high-pitched",
+      "speaking_rate": "measured speed",
+      "noise": "slightly noisy environment",
+      "utterance_pitch_mean": 268.543212890625,
+      "snr": 36.428504943847656,
+      "phonemes": "\u00f0\u026as ivn\u026a\u014b \u026an lo\u028as \u00e6nd\u0292\u028cl\u026as \u026at 'ti \u0261\u0251n\u028c bi kla\u028adi, \u026at' bi d\u028csti, w\u026a\u00f0 t\u025bmp\u0279\u028ct\u0283\u025c\u02dez b\u026atwin z\u026a\u0279o\u028a \u028cnd f\u0254\u0279.",
+      "audio_path": "/mnt/fs1/USER/paraspeechcaps_root/datasets/expresso/audio_48khz/read/ex04/laughing/base/ex04_laughing_00081.wav",
+      "task": "speech_captioning",
+      "speaker_idiosyncratic_style": "A high-pitched, booming American female voice rings out, characterized by an enunciated and crisp tone, with a shrill quality that cuts through the air.",
+      "speaker_idiosyncratic_style_instruction": "Describe the speaker's inherent vocal characteristics, including their accent, pitch, and timbre-related qualities.",
+      "situational_contextual_style": "A female American speaker delivers a measured, yet authoritative announcement, her voice projecting through a slightly noisy environment with a sense of purpose and clarity.",
+      "situational_contextual_style_instruction": "Set the scene by describing the circumstances of the speech, including the speaking rate, noise level, and the speaker's tone.",
+      "expressive_emotional_style": "The speaker's voice bubbles over with amusement, her words tumbling out in a lively, animated rhythm, punctuated by bursts of laughter that infuse her speech with a playful, carefree spirit.",
+      "expressive_emotional_style_instruction": "Capture the emotional tone of the speaker by describing the prosody, pitch contour, and rhythm that convey their attitude and feelings.",
+      "linguistic_pragmatic_style": "The speaker's words are carefully enunciated, with a measured pace that allows for emphasis on key points, her voice rising and falling in a gentle, conversational cadence that draws the listener in.",
+      "linguistic_pragmatic_style_instruction": "Analyze the speech's structural and emphasis patterns, describing the pausing, stress, and intonation that shape the delivery of the words.",
+      "perceptual_listener_centric_style": "The listener is struck by the speaker's energetic and expressive voice, which seems to leap out of the slightly noisy environment, its high-pitched, booming quality and crisp enunciation making it feel both lively and engaging.",
+      "perceptual_listener_centric_style_instruction": "Detail the listener's perception of the voice, describing the overall effect it has on them and the qualities that make it memorable.",
+      "holistic_creative_synthesis": "Imagine a lively, animated American female voice, booming and high-pitched, with a crisp, enunciated tone that cuts through a slightly noisy environment, as she delivers a measured, yet playful announcement, her words tumbling out in a carefree rhythm punctuated by bursts of laughter, creating a sense of joyful, conversational connection with the listener.",
+      "holistic_creative_synthesis_instruction": "Combine all the elements of the speaker's style to create a rich, narrative-style caption that captures the essence of their voice and speaking manner, drawing the listener into the scene."
+    }
+  }
+]

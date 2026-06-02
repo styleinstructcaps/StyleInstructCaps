@@ -1,0 +1,3 @@
+# Example models.csv for axis 8 (speaker cluster plots)
+# Format: display_name,json_path
+My Model,/path/to/my_model_vctk_results.json

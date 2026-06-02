@@ -1,0 +1,32 @@
+# spk_style_eval_env — Qwen3-32B LLM-as-judge evaluation
+#
+# Powers axes 1–3 and 6–7:
+#   metadata groundedness, hallucination, instruction following
+#
+# Create:
+#   conda env create -f envs/spk_style_eval_env.yaml
+#   conda activate spk_style_eval_env
+#
+# Requires NVIDIA GPU(s). Qwen3-32B needs ~64 GB VRAM total (multi-GPU auto-shard).
+# Adjust TORCH_INDEX_URL for your CUDA version:
+#   cu121 → https://download.pytorch.org/whl/cu121
+#   cu124 → https://download.pytorch.org/whl/cu124
+
+name: spk_style_eval_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - torch>=2.1.0
+      - torchvision
+      - torchaudio
+      - transformers>=4.45.0
+      - accelerate>=0.30.0
+      - huggingface_hub>=0.23.0
+      - sentencepiece
+      - protobuf
+      - tqdm>=4.66.0
+      - numpy>=1.24.0
