@@ -165,17 +165,6 @@ python hf_dataset/scripts/prepare_release.py
 python hf_dataset/scripts/upload_to_hf.py --org StyleInstructCaps --name StyleInstructCapsDB
 ```
 
-## Citation
-
-```bibtex
-@article{styleinstructcaps2026,
-  title   = {StyleInstructCaps: Instruction-Following Speaking Style Captioning},
-  author  = {TODO},
-  journal = {TODO},
-  year    = {2026}
-}
-```
-
 ## Acknowledgments
 
 - Judge model: [Qwen/Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B)
